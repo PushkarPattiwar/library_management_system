@@ -10,7 +10,7 @@ This is a simple Library Management System written in Python using TDD. The syst
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone <>
     cd library-management-system
     ```
 
