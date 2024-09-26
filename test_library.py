@@ -1,4 +1,5 @@
 import unittest
+import HtmlTestRunner  
 from datetime import datetime, timedelta
 from library import Library, Book, User, BorrowedBook, BookNotAvailableError
 
@@ -78,4 +79,5 @@ class TestLibraryManagementSystem(unittest.TestCase):
         self.assertIn("Book 'Clean Code' is overdue. Please return it.", output)
 
 if __name__ == '__main__':
-    unittest.main()
+    #unittest.main()
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='test-reports'))
