@@ -10,7 +10,7 @@ This is a simple Library Management System written in Python using TDD. The syst
 
 1. Clone the repository:
     ```bash
-    git clone <>
+    git clone <https://github.com/PushkarPattiwar/library_management_system.git>
     cd library-management-system
     ```
 
@@ -18,8 +18,6 @@ This is a simple Library Management System written in Python using TDD. The syst
     ```bash
     python -m unittest discover
     ```
-
-3. Run the project with custom scripts.
 
 ## Tests
 
